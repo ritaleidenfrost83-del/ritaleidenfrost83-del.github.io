@@ -1,94 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Damith Weerasekara</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damith Weerasekara</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="topbar">
+    <div class="logo-box"></div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#home">Damith Weerasekara Home page</a>
+    </nav>
+  </header>
 
-<!-- HERO -->
-<section class="hero">
-  <h1>Damith<br>Weerasekara</h1>
+  <main id="home">
+    <section class="hero section">
+      <h1 class="hero-title">Damith<br />Weerasekara</h1>
 
-  <div class="menu">
-    <span>Website designing</span>
-    <span>Programming</span>
-    <span>Engineering</span>
-    <span>Project Planning</span>
-  </div>
+      <div class="hero-links">
+        <div>Website designing</div>
+        <div>Programming</div>
+        <div>Engineering</div>
+        <div>Project Planning</div>
+      </div>
 
-  <div class="hero-content">
-    <img src="me.jpeg" alt="profile">
+      <div class="hero-grid">
+        <div class="hero-image-wrap">
+          <img src="me.jpeg" alt="Damith Weerasekara" class="hero-image" />
+        </div>
 
-    <div class="text">
-      <p>
-        I build the initiation parts of business implementation processes along with the digitalization parts and preparing the company for the future.
-      </p>
+        <div class="hero-text">
+          <p>
+            I build the initiation parts of the business implementation processes
+            along with the digitalization parts and preparing the company for the
+            future. I have implemented few projects and would love to do more
+            projects with you.
+          </p>
 
-      <p>
-        I do this as a part of a passion and I am offering my services as a part of my free time.
-      </p>
+          <p>
+            I do this as a part of a passion and I am offering my services as a
+            part of my free time and on a personal basis. I am not a company and
+            I am not self employed and looking for an opportunity along the way
+            just for fun of doing something.
+          </p>
 
-      <a href="mailto:weeradam7875@gmail.com?subject=Project Request">
-        <button>Start a project now</button>
-      </a>
-    </div>
-  </div>
-</section>
+          <a class="btn" href="mailto:weeradam7875@gmail.com?subject=Project%20Request&body=Hello%20Damith,%20I%20would%20like%20to%20start%20a%20project%20with%20you.">
+            start a project now
+          </a>
+        </div>
+      </div>
+    </section>
 
-<!-- EXPERIENCE -->
-<section class="experience">
-  <div>Wheelchair design project – TH Ingolstadt</div>
-  <div>AI Garden Robot – TH Ingolstadt</div>
-  <div>Startup experience – WertX</div>
-</section>
+    <section class="projects-strip">
+      <div class="project-card">
+        <p>
+          Was involved in a wheel chair designing project in the university for
+          the rural areas of south Africa.
+        </p>
+        <p>TH Ingolstadt</p>
+      </div>
 
-<!-- ABOUT -->
-<section class="about">
-  <h2>About me</h2>
-  <p>
-    I am an Engineer working on projects and startups.
-    I have experience in PM and IT fields along with engineering.
-  </p>
-</section>
+      <div class="project-card">
+        <p>
+          Was involved in a AI based Garden Robot design for the semester Project
+          in the university.
+        </p>
+        <p>TH Ingolstadt</p>
+      </div>
 
-<!-- SKILLS -->
-<section class="skills">
-  <h2>Programming skills</h2>
-  <div class="skill">Python</div>
-  <div class="skill">HTML and CSS</div>
-  <div class="skill">Java</div>
-  <div class="skill">ERP implementations</div>
-</section>
+      <div class="project-card">
+        <p>
+          Was a part of a start up called Wert X gathering experience in making
+          customer specific tools.
+        </p>
+        <p>Wertx</p>
+      </div>
+    </section>
 
-<!-- SERVICES -->
-<section class="services">
-  <h1>Services that are provided upon request</h1>
+    <section class="about section" id="about">
+      <div class="section-label-block">
+        <div class="small-label">about</div>
+        <a class="btn" href="mailto:weeradam7875@gmail.com?subject=Project%20Request&body=Hello%20Damith,%20I%20would%20like%20to%20start%20a%20project%20with%20you.">
+          start a project now
+        </a>
+      </div>
 
-  <div class="service-container">
-    <div class="service">
-      <h3>Project planning</h3>
-      <p>I can plan your project according to your requirements.</p>
-    </div>
+      <div class="section-content">
+        <h2>About me</h2>
+        <p>
+          I am an Engineer in profession and doing some projects on my free time
+          just for fun. I have a Masters of Science degree in Engineering and
+          doing this for fun and getting the pleasure of doing something on my
+          own.
+        </p>
 
-    <div class="service">
-      <h3>Project implementation</h3>
-      <p>Detailed system analysis and setup.</p>
-    </div>
+        <p>
+          Over the past decade I have collaborated with startups, companies and
+          have gathered some experience in the fields of PM and IT fields along
+          with my professional experience in Engineering.
+        </p>
+      </div>
+    </section>
 
-    <div class="service">
-      <h3>Secure Application</h3>
-      <p>Secure web platform development.</p>
-    </div>
-  </div>
-</section>
+    <section class="skills section">
+      <div class="section-label-block">
+        <div class="small-label">Skills list</div>
+        <h2 class="skills-title">Programming<br />skills</h2>
+      </div>
 
-<!-- CONTACT -->
-<section class="contact">
-  <h2>Contact for projects worldwide</h2>
-  <p>Email: weeradam7875@gmail.com</p>
-</section>
+      <div class="skills-list">
+        <details open>
+          <summary>Python</summary>
+          <p>AI based implementation for image and pattern recognitions</p>
+        </details>
 
+        <details>
+          <summary>HTML and CSS</summary>
+          <p>Building clean and responsive websites and landing pages.</p>
+        </details>
+
+        <details>
+          <summary>Java</summary>
+          <p>Desktop tools, backend logic and structured application development.</p>
+        </details>
+
+        <details>
+          <summary>ERP implementations</summary>
+          <p>Process support, implementation planning and digital workflow setups.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="services section">
+      <h2 class="services-heading">Services that are provided upon request</h2>
+
+      <div class="services-text-grid">
+        <div>
+          <h3>Project planning</h3>
+          <p>
+            I can plan your project according to your requirements as requested
+            on a personal tone.
+          </p>
+        </div>
+
+        <div>
+          <h3>Project implementation</h3>
+          <p>
+            Detailed analysis of existing systems to detect misconfigurations,
+            insecure code patterns, and potential attack vectors.
+          </p>
+        </div>
+
+        <div>
+          <h3>Secure Application</h3>
+          <p>
+            Design and development of secure web platforms with modern
+            authentication systems and protected data architecture.
+          </p>
+        </div>
+      </div>
+
+      <div class="services-image-grid">
+        <img src="service1.jpg" alt="Project planning" />
+        <img src="service2.jpg" alt="Project implementation" />
+        <img src="service3.jpg" alt="Secure application" />
+      </div>
+    </section>
+
+    <section class="contact section">
+      <div class="section-label-block">
+        <div class="small-label">contact</div>
+        <h2 class="contact-title">Contact for<br />projects<br />worldwide</h2>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-grid">
+          <div class="contact-item">
+            <h3>Address</h3>
+            <p>Ingolstadt 85051.</p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p>Weeradam7875@gmail.com</p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+4915223511726</p>
+          </div>
+        </div>
+
+        <div class="availability">
+          <h3>Availability</h3>
+          <p>
+            Availability for something interesting. Just give me a ring and we
+            will see.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Sample text. Click to select the Text Element.</p>
+    <p class="footer-small">This site was created with the Nicours</p>
+  </footer>
 </body>
 </html>
